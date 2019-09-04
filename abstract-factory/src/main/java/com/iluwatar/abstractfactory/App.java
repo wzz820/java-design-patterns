@@ -38,7 +38,7 @@ import org.slf4j.LoggerFactory;
  * The essence of the Abstract Factory pattern is a factory interface ({@link KingdomFactory}) and its implementations (
  * {@link ElfKingdomFactory}, {@link OrcKingdomFactory}). The example uses both concrete implementations to create a
  * king, a castle and an army.
- * 
+ * 抽象工厂模式
  */
 public class App {
 

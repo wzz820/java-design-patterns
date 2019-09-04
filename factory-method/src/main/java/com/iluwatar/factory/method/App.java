@@ -37,7 +37,7 @@ import org.slf4j.LoggerFactory;
  * creating objects ({@link Blacksmith#manufactureWeapon}). The concrete subclasses (
  * {@link OrcBlacksmith}, {@link ElfBlacksmith}) then override the method to produce objects of
  * their liking.
- * 
+ *  工厂方法模式
  */
 public class App {
 
@@ -74,7 +74,7 @@ public class App {
   
   private void manufactureWeapons() {
     Weapon weapon;
-    weapon = blacksmith.manufactureWeapon(WeaponType.SPEAR);
+    weapon = blacksmith.manufactureWeapon(WeaponType.SHORT_SWORD);
     LOGGER.info(weapon.toString());
     weapon = blacksmith.manufactureWeapon(WeaponType.AXE);
     LOGGER.info(weapon.toString());

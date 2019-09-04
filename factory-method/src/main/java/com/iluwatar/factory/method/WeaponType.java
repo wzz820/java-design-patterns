@@ -29,7 +29,7 @@ package com.iluwatar.factory.method;
  */
 public enum WeaponType {
 
-  SHORT_SWORD("short sword"), SPEAR("spear"), AXE("axe"), UNDEFINED("");
+  SHORT_SWORD("short_sword"), SPEAR("spear"), AXE("axe"), UNDEFINED("");
 
   private String title;
 
